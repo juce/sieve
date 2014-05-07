@@ -1,11 +1,11 @@
--- Eratopshenes Sieve
+-- Eratosthenes Sieve
 
 -- Use this function to perform your initial setup
 function setup()
     print("Hello World!")
     
     sieve = Sieve()
-    co = sieve:findPrimesSmallerThan(30)
+    co = sieve:findPrimesSmallerThan(10000)
     
     parameter.watch('sieve.lastPrime')
     
